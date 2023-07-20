@@ -1,0 +1,33 @@
+[2023-07-20 21:10:37,900]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:10:37,909]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:10:37,933]^;INFO^;187^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-20 21:10:37,933]^;INFO^;187^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2023-07-20 21:10:42,729]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:10:42] "GET / HTTP/1.1" 200 -
+[2023-07-20 21:12:09,590]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:12:09] "GET /instance HTTP/1.1" 200 -
+[2023-07-20 21:12:22,618]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:12:22] "POST /instance HTTP/1.1" 200 -
+[2023-07-20 21:12:27,615]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:12:27] "GET /instance HTTP/1.1" 200 -
+[2023-07-20 21:12:36,180]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:12:36] "GET /batch HTTP/1.1" 200 -
+[2023-07-20 21:18:22,383]^;INFO^;127^;app.py^;perform_batch_prediction()^;CSV received and Uploaded
+[2023-07-20 21:18:22,389]^;INFO^;24^;prediction_pipeline.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>Data Batch prediction log started.<<<<<<<<<<<<<<<<<<<< 
+[2023-07-20 21:18:22,392]^;INFO^;73^;prediction_pipeline.py^;data_transformation()^;Obtaining preprocessing object.
+[2023-07-20 21:18:22,414]^;INFO^;59^;prediction_pipeline.py^;get_data_transformer_object()^;Numerical columns: ['step', 'amount', 'newbalanceOrig', 'newbalanceDest', 'isFlaggedFraud']
+[2023-07-20 21:18:22,446]^;INFO^;88^;prediction_pipeline.py^;data_transformation()^;Obtaining training and test file path.
+[2023-07-20 21:18:22,446]^;INFO^;93^;prediction_pipeline.py^;data_transformation()^;Loading training and test data as pandas dataframe.
+[2023-07-20 21:19:15,585]^;INFO^;101^;prediction_pipeline.py^;data_transformation()^;Categorical columns dropped: ['type', 'nameOrig', 'nameDest']
+[2023-07-20 21:19:15,594]^;INFO^;105^;prediction_pipeline.py^;data_transformation()^;Splitting input and target feature from training and testing dataframe.
+[2023-07-20 21:19:15,713]^;INFO^;108^;prediction_pipeline.py^;data_transformation()^;Applying preprocessing object on training dataframe and testing dataframe
+[2023-07-20 21:19:27,184]^;INFO^;119^;prediction_pipeline.py^;data_transformation()^;Saving transformed training and testing array.
+[2023-07-20 21:19:30,274]^;INFO^;136^;app.py^;perform_batch_prediction()^;Loaded numpy from batch prediciton :[[-1.32960894 -0.33293229  1.11117515 -0.19305662  0.        ]
+ [-1.32960894 -0.37376208  0.13437497 -0.19305662  0.        ]
+ [-1.32960894 -0.38237962  0.         -0.19305662  0.        ]
+ ...
+ [ 2.81564246 31.92789862  0.          5.54473008  0.        ]
+ [ 2.81564246  3.96827426  0.         -0.19305662  0.        ]
+ [ 2.81564246  3.96827426  0.          6.42628001  0.        ]]
+[2023-07-20 21:19:30,274]^;INFO^;138^;app.py^;perform_batch_prediction()^;Array Shape :(6362620, 5)
+[2023-07-20 21:19:30,303]^;INFO^;148^;app.py^;perform_batch_prediction()^; Loading model from path : D:\Study\ml_pipeline\Fraud_transaction_detection\saved_models\20230720210438\model.pkl
+[2023-07-20 21:20:35,874]^;INFO^;130^;prediction_pipeline.py^;__del__()^;====================Data Prediction log completed.==================== 
+
+
+[2023-07-20 21:20:35,934]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:20:35] "POST /batch HTTP/1.1" 200 -

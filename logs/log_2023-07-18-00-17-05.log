@@ -1,0 +1,55 @@
+[2023-07-18 00:17:06,132]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-18 00:17:06,136]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-18 00:17:06,179]^;INFO^;187^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-18 00:17:06,180]^;INFO^;187^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2023-07-18 00:17:29,799]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [18/Jul/2023 00:17:29] "GET / HTTP/1.1" 200 -
+[2023-07-18 00:17:36,869]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [18/Jul/2023 00:17:36] "GET /instance HTTP/1.1" 200 -
+[2023-07-18 00:17:37,241]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [18/Jul/2023 00:17:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-07-18 00:17:53,573]^;ERROR^;1414^;app.py^;log_exception()^;Exception on /instance [POST]
+Traceback (most recent call last):
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py", line 63, in get_latest_model_path
+    folder_name = list(map(int, os.listdir(self.model_dir)))
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\saved_models'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py", line 75, in predict
+    model_path = self.get_latest_model_path()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py", line 71, in get_latest_model_path
+    raise BankingException(e, sys) from e
+banking.exception.BankingException: 
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py ] at 
+        try block line number: [63] and exception block line number: [71] 
+        error message: [[WinError 3] The system cannot find the path specified: 'D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\saved_models']
+        
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 88, in predict
+    is_Fraud_value = fraud_predictor.predict(X=banking_df)
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py", line 80, in predict
+    raise BankingException(e, sys) from e
+banking.exception.BankingException: 
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py ] at 
+        try block line number: [75] and exception block line number: [80] 
+        error message: [
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\entity\banking_predictor.py ] at 
+        try block line number: [63] and exception block line number: [71] 
+        error message: [[WinError 3] The system cannot find the path specified: 'D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\saved_models']
+        ]
+        
+[2023-07-18 00:17:53,598]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [18/Jul/2023 00:17:53] "[35m[1mPOST /instance HTTP/1.1[0m" 500 -

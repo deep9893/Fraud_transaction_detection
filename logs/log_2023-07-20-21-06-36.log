@@ -1,0 +1,52 @@
+[2023-07-20 21:06:39,388]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:06:39,393]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:06:39,429]^;INFO^;187^;_internal.py^;_log()^;[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-07-20 21:06:39,429]^;INFO^;187^;_internal.py^;_log()^;[33mPress CTRL+C to quit[0m
+[2023-07-20 21:06:50,291]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:06:50] "GET / HTTP/1.1" 200 -
+[2023-07-20 21:06:54,190]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:06:54,190]^;INFO^;66^;configuration.py^;get_data_ingestion_config()^;Data Ingestion config: DataIngestionConfig(dataset_download_url='https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV', raw_data_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-54\\raw_data', ingested_train_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-54\\ingested_data\\train', ingested_test_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-54\\ingested_data\\test', dataset_location='D:\\Study\\ml_pipeline\\Fraud.csv')
+[2023-07-20 21:06:54,190]^;INFO^;19^;data_ingestion.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-20 21:06:54,199]^;INFO^;55^;data_ingestion.py^;get_housing_data()^; Raw data Directory ...
+[2023-07-20 21:06:57,279]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 21:06:57,279]^;INFO^;66^;configuration.py^;get_data_ingestion_config()^;Data Ingestion config: DataIngestionConfig(dataset_download_url='https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV', raw_data_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-57\\raw_data', ingested_train_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-57\\ingested_data\\train', ingested_test_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-20-21-06-57\\ingested_data\\test', dataset_location='D:\\Study\\ml_pipeline\\Fraud.csv')
+[2023-07-20 21:06:57,279]^;INFO^;19^;data_ingestion.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-20 21:06:57,279]^;INFO^;55^;data_ingestion.py^;get_housing_data()^; Raw data Directory ...
+[2023-07-20 21:07:08,828]^;INFO^;65^;data_ingestion.py^;get_housing_data()^;File copied from D:\Study\ml_pipeline\Fraud.csv to D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-57\raw_data\Fraud.csv
+[2023-07-20 21:07:08,828]^;INFO^;42^;data_ingestion.py^;download_housing_data()^;Downloading file from :[https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV] into :[D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-57\raw_data\Fraud.csv]
+[2023-07-20 21:07:10,228]^;INFO^;65^;data_ingestion.py^;get_housing_data()^;File copied from D:\Study\ml_pipeline\Fraud.csv to D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-54\raw_data\Fraud.csv
+[2023-07-20 21:07:10,228]^;INFO^;42^;data_ingestion.py^;download_housing_data()^;Downloading file from :[https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV] into :[D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-54\raw_data\Fraud.csv]
+[2023-07-20 21:07:12,231]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:07:12] "GET /instance HTTP/1.1" 200 -
+[2023-07-20 21:07:14,110]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:07:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-07-20 21:07:29,684]^;ERROR^;1414^;app.py^;log_exception()^;Exception on /instance [POST]
+Traceback (most recent call last):
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 74, in predict
+    newbalanceDest = float(request.form['newbalanceDest'])
+ValueError: could not convert string to float: ''
+[2023-07-20 21:07:29,693]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:07:29] "[35m[1mPOST /instance HTTP/1.1[0m" 500 -
+[2023-07-20 21:07:36,889]^;ERROR^;1414^;app.py^;log_exception()^;Exception on /instance [POST]
+Traceback (most recent call last):
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Study\ml_pipeline\Fraud_transaction_detection\env\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "app.py", line 75, in predict
+    isFlaggedFraud = float(request.form['isFlaggedFraud'])
+ValueError: could not convert string to float: ''
+[2023-07-20 21:07:36,890]^;INFO^;187^;_internal.py^;_log()^;127.0.0.1 - - [20/Jul/2023 21:07:36] "[35m[1mPOST /instance HTTP/1.1[0m" 500 -
+[2023-07-20 21:08:04,732]^;INFO^;44^;data_ingestion.py^;download_housing_data()^;File :[D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-57\raw_data\Fraud.csv] has been downloaded successfully.
+[2023-07-20 21:08:04,732]^;INFO^;80^;data_ingestion.py^;split_data_as_train_test()^;Reading csv file: [D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-57\raw_data\Fraud.csv]
+[2023-07-20 21:08:11,897]^;INFO^;44^;data_ingestion.py^;download_housing_data()^;File :[D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-54\raw_data\Fraud.csv] has been downloaded successfully.
+[2023-07-20 21:08:11,898]^;INFO^;80^;data_ingestion.py^;split_data_as_train_test()^;Reading csv file: [D:\Study\ml_pipeline\Fraud_transaction_detection\fraud_detection_artifact\artifact\data_ingestion\2023-07-20-21-06-54\raw_data\Fraud.csv]

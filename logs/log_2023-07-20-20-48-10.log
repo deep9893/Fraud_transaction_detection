@@ -1,0 +1,4 @@
+[2023-07-20 20:48:12,650]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:48:12,654]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:48:12,658]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:48:12,658]^;ERROR^;19^;main.py^;main()^;'Pipeline' object has no attribute 'run_pipeline'

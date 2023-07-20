@@ -1,0 +1,9 @@
+[2023-07-20 20:57:01,525]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:57:01,529]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:57:01,534]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-20 20:57:01,534]^;ERROR^;19^;main.py^;main()^;
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\pipeline\pipeline.py ] at 
+        try block line number: [121] and exception block line number: [140] 
+        error message: [name 'data_ingestion_artifact' is not defined]
+        

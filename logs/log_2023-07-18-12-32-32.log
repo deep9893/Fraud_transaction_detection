@@ -1,0 +1,22 @@
+[2023-07-18 12:32:37,523]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-18 12:32:37,538]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-18 12:32:37,538]^;INFO^;234^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact')
+[2023-07-18 12:32:37,538]^;INFO^;66^;configuration.py^;get_data_ingestion_config()^;Data Ingestion config: DataIngestionConfig(dataset_download_url='https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV', raw_data_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-18-12-32-32\\raw_data', ingested_train_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-18-12-32-32\\ingested_data\\train', ingested_test_dir='D:\\Study\\ml_pipeline\\Fraud_transaction_detection\\fraud_detection_artifact\\artifact\\data_ingestion\\2023-07-18-12-32-32\\ingested_data\\test', dataset_location='r"D:\\Study\\ml_pipeline\\Fraud.csv"')
+[2023-07-18 12:32:37,538]^;INFO^;19^;data_ingestion.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-07-18 12:32:37,538]^;INFO^;55^;data_ingestion.py^;get_housing_data()^; Raw data Directory ...
+[2023-07-18 12:32:37,538]^;ERROR^;19^;main.py^;main()^;
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\pipeline\pipeline.py ] at 
+        try block line number: [120] and exception block line number: [140] 
+        error message: [
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\pipeline\pipeline.py ] at 
+        try block line number: [56] and exception block line number: [58] 
+        error message: [
+        Error occured in script: 
+        [ D:\Study\ml_pipeline\Fraud_transaction_detection\banking\components\data_ingestion.py ] at 
+        try block line number: [141] and exception block line number: [145] 
+        error message: [__init__() missing 1 required positional argument: 'error_detail']
+        ]
+        ]
+        
